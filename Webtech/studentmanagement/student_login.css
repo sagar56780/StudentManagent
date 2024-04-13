@@ -1,0 +1,79 @@
+body{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.zero_padding{
+    padding: 0px;
+    margin: 0px;
+}
+.login{
+    margin: 4px;
+}
+
+.screen{
+    
+    background: rgb(25,52,52);
+    background: linear-gradient(0deg, rgba(25,52,52,1) 0%, rgba(117,117,117,1) 100%);
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.heading{
+background-color: rgb(71, 51, 51);
+height: 4em;
+width: 100%;
+
+}
+.login_container{
+    border: 2px solid black;
+    background-color: #193434;
+    width: 60%;
+   height: 70%;
+    margin: 5em;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+              
+.lb,.email_lable,.inputfield,.phonelable{ 
+    margin: 20px;
+    width: 80%;
+    padding: .2em;
+   
+    border-color: rgb(0, 0, 0) ;
+
+    
+    height: 1.9em;
+    border-radius: 5px;
+  
+}
+.login_button{
+    color: white;
+    font-size: larger;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+    background: transparent     ;
+
+}
+.transparent,.heading{
+    background-color: transparent;
+}
+.heading{
+    margin: 30px;
+    
+    font-size: 1.8em;
+
+  
+   
+
+}

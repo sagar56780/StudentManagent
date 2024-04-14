@@ -5,7 +5,20 @@ body{
     box-sizing: border-box;
 
 }
+.login_container{
 
+    border: 2px solid black;
+    background-color: hsla(38, -53%, 5%, 80%);
+    width: 60%;
+    height: 70%;
+    margin: 5em;
+    padding: 0;
+    color: #FA3B5D;
+    font-weight: bold;
+    border-radius: 10px;
+    
+
+}
 
 .zero_padding{
     padding: 0px;
@@ -16,54 +29,91 @@ body{
 }
 
 .screen{
+   display: flex;
     
     background: rgb(25,52,52);
-    background: linear-gradient(0deg, rgba(25,52,52,1) 0%, rgba(117,117,117,1) 100%);
+    background-image: linear-gradient(to right, #080c12, #0d1820, #09232b, #022e34, #003a38);
     align-items: center;
     height: 100vh;
     width: 100vw;
     display: flex;
 }
+@media screen and (max-width:800px ) {
+    .screen {
+        
+      
+       display: flex;
+       flex-direction: column;
+         
+    }
+    .login_container{
+        margin:10px;
+       height: 80vh;
+    }
+  }
 .heading{
 background-color: rgb(71, 51, 51);
+color:#FA3B5D ;
 height: 4em;
 width: 100%;
 
 }
-.login_container{
-    border: 2px solid black;
-    background-color: #193434;
-    width: 60%;
-   height: 70%;
-    margin: 5em;
-    padding: 0;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    border-radius: 10px;
+
+.or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D70044;
+    margin: 10px;
+    margin-right: 50px;
+    text-align: center;
+}
+.forgot_password_button:hover{
+    color: black;
 
 }
+
+
               
 .lb,.email_lable,.inputfield,.phonelable{ 
     margin: 20px;
     width: 80%;
     padding: .2em;
-   
-    border-color: rgb(0, 0, 0) ;
+    border: none;
+ 
+  
 
-    
+  
     height: 1.9em;
     border-radius: 5px;
   
 }
-.login_button{
+.login_button,.register_button,.forgot_password_button{
+    border: none;
+    background: transparent ;
     color: white;
-    font-size: larger;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    border-radius: 10px;
-    background: transparent     ;
+    font-size: large;
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+    background: hsla(-207, 107%, 66%, 89%) ;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
 
+}
+.login_button:hover{
+    color: #000000;
+    
+}
+.register_button{
+    background-color: chocolate;
+}
+.register_button:hover{
+    color: black;
+}
+.forgot_password_button{
+    background-color: tomato;
 }
 .transparent,.heading{
     background-color: transparent;
@@ -72,8 +122,14 @@ width: 100%;
     margin: 30px;
     
     font-size: 1.8em;
-
-  
-   
-
 }
+input[type="tel"],input[type="password"] {
+    border: 2px solid #E7EFFF;
+    border-radius: 4px;
+    background: #C4FCF0;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+ 

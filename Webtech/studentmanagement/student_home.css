@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.nav{
+    height: 4em;
+    width: 100vw;
+
+    position: relative;
+    bottom: 47%;
+    display: flex;
+ 
+    
+
+}
+.screen{
+    
+    
+}
+.nav_item{
+    padding-top: 2em;
+    text-align: center;
+   flex-grow: 0.5;
+   border-left: 2px solid black;
+    color: white;
+    background: #00181D;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    height: 100%;
+
+}
+.profile_select{
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}

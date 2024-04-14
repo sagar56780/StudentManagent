@@ -4,23 +4,24 @@
     box-sizing: border-box;
 
 }
+
+.screen{
+    height: 98vh;
+    width: 100vw;
+
+    background-image: linear-gradient(to right, #080c12, #0d1820, #09232b, #022e34, #003a38);
+
+}
 .nav{
     height: 4em;
     width: 100vw;
-
-    position: relative;
-    bottom: 47%;
     display: flex;
  
     
 
 }
-.screen{
-    
-    
-}
 .nav_item{
-    padding-top: 2em;
+    padding-top: 1.5em;
     text-align: center;
    flex-grow: 0.5;
    border-left: 2px solid black;
@@ -34,7 +35,20 @@
     font-size: larger;
     font-family:Georgia, 'Times New Roman', Times, serif ;
 }
-.ongoin_batch{
-    
+.ongoing_batch{
+    margin-top: 20px;
+    color: white;
+    height: 361px;
+    width: 380px;
+    border: 2px solid white;
+
+}
+th{ 
+
+    text-align: left;
+}
+table{
+     border-spacing: .2em 1em;
+     margin-left: 10px;
 
 }

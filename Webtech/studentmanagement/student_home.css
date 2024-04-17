@@ -31,6 +31,14 @@
     height: 100%;
 
 }
+.nav_button{
+    border: none;
+    background: white;
+    color: black;
+   font: bold; 
+   width: 100%;
+    
+}
 .profile_select{
     font-size: larger;
     font-family:Georgia, 'Times New Roman', Times, serif ;

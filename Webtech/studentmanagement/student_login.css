@@ -24,11 +24,13 @@ body{
 
 }
 form{
+    row-gap: .2em;
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+  
      
 }
 
@@ -37,6 +39,7 @@ form{
     margin: 0px;
 }
 .login{
+    text-align: center ;
     margin: 4px;
 }
 
@@ -73,38 +76,7 @@ form{
         font-size: 1.8em;
     
     }
-@media screen and (max-width:800px ) {
-    .screen {
-        
-      
-       display: flex;
-       flex-direction: column;
-         
-    }
-    .login_container{
-        margin:10px;
-       height: 80vh;
-    }
-   
-    .heading{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        font-size: medium;
-        height: 30%;
-        width: 50%;
-        margin: 0px;
-     
-    }
-    .head{
-        display: flex;
-        justify-content: center
-        margin: 0px 10px 0px;
-        font-size: 1.3em;
-        margin-right: .5em;
-    }
-  }
+
 
 
 .or {
@@ -186,4 +158,44 @@ input[type="tel"],input[type="password"] {
     font: bold;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
- 
+
+@media screen and (max-width:800px ) {
+    .screen {
+        
+      
+       display: flex;
+       flex-direction: column;
+         
+    }
+    .login_container{
+        margin:0px;
+       height: 65vh;
+    }
+   
+    .heading{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: medium;
+        height: 30%;
+        width: 50%;
+        margin: 0px;
+        
+     
+    }
+    .form{
+        row-gap:0px;
+    }
+    .head{
+    
+    
+        margin: 0px 10px 0px;
+        font-size: 1.3em;
+        margin-right: .5em;
+    }
+  }
+  button:hover{
+    border: rgb(255, 255, 255) 2px solid;
+
+  }

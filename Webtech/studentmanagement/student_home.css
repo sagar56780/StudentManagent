@@ -7,13 +7,14 @@
 
 }
 body{
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
     
 }
 .nav-bar{
     display: flex;
-    
+    flex-basis: auto;
     height: 5em;
     width: 100vw;
     background: white;
@@ -25,21 +26,23 @@ ul{
     list-style: none;
     justify-content: center;
 }
-a{
-    background: red;
-    display: block;
-    height: 100%;
-    width: 100%;
-    justify-items: center
+.nav-item{
+
+background: transparent;
+text-decoration:  none;
+font-size: xx-large;
+height: 100%;
+padding: .5em;
+
 }
-li{
+li{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 2em;
     height: 100%;
-    flex-grow: 2;
-    background: rebeccapurple;
-    text-align: center;
-  
-    
+    flex-basis: auto;
+    background: chartreuse;
 }
 .menu{
     display: block;
@@ -57,11 +60,10 @@ span{
     background: black;
 }
 .burger{
-    
-    position: relative;
-    height: 80%;
-    background: rgb(250, 250, 250);
-    width: 30vw;
-    right: -70%;
-    display: none;
+
+    height: 87vh;
+    width: 50%;
+    background:black;
+    color: white;
+   
 }

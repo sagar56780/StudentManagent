@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+.container{
+    height: 20em;
+    width: 15em;
+    padding: 3px;
+    border: 2px solid black;
+}
+img{
+    border: 2px solid red;
+    height: 70%;
+    width: 100%;
+}
+#delvery{
+    background:rgb(221, 213, 213);
+    border-radius: 20%;
+    font-size: x-small;
+    border: none;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+#rating{
+    background: rgb(6, 170, 6);
+    border: none;
+   
+
 }

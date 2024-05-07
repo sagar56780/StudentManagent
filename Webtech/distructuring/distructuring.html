@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+
+
+
+
+    <Script>
+    
+      // Function that returns a promise after a delay
+function delay(ms) {
+    console.log(ms);
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// An async function
+
+async function asyncFunction() {
+  console.log('Start');
+ await delay(2000); // Pause here until the promise is resolved
+ await  delay(1000);
+  console.log('End');
+}
+
+asyncFunction();
+
+
+
+
+    </Script>r
+    
+</body>
+</html>

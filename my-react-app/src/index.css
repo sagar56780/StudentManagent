@@ -24,6 +24,20 @@ img{
 #rating{
     background: rgb(6, 170, 6);
     border: none;
+    border-radius: 10px;
+    padding: 4px 10px;
+    color: white;
+
    
 
+}
+.star{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background: wheat;
+    transform: rotate(45deg);
+    
+    
+   
 }
